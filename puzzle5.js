@@ -27,3 +27,27 @@ if (getColor()=="blue"){
 right();
 right();
 right();
+
+
+
+OR
+
+function redBlue () {
+	right();
+	right();
+
+	if (getColor()=="blue"){
+  	down();
+	}else{
+  up();
+	}
+	}
+
+redBlue();
+redBlue();
+redBlue();
+right();
+right();
+right();
+
+
