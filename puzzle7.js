@@ -1,25 +1,18 @@
 function updownright(){
 
-  while(getColor()!="red"){
+while(getColor()!="red"){
   down();
-	}
-
-  
-	if (getColor()=="red"){
-	right();
-  right();
-  }
-    while(getColor()!="red"){
-  	up();
-	}
-
-	if (getColor()=="red"){
-	right();
-  right();
-  }
-    
 }
+right();
+right();
+while(getColor()!="red"){
+  	up();
+}
+right();
+right();
+}
+    
 
-  updownright();
-  updownright();
-  updownright();
+updownright();
+updownright();
+updownright();
